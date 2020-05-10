@@ -1,5 +1,0 @@
-print('Hello, World!')
-print(40 / 30)
-print(40 / 20)
-print(40 // 30)
-print(40 // 20)
