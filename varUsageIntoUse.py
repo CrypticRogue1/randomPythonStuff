@@ -15,6 +15,14 @@ print('What is your age?')
 myAge = input()
 print('You will be ' + str(int(myAge) + 1) + ' in a year.')
 
+# Note to self, input() is almost always a string 
+# (i.e 
+# peeps = input()
+# peeps
+# USER INPUT:
+# 101
+# OUTPUT:
+# '101')
 
 # Testing
 print(myAge) #outputs the variable itself. (I just put it here as the control var)
