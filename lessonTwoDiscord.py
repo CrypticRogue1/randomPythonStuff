@@ -83,10 +83,23 @@ print(z)
 y.insert(0, "Tom") # This would insert "Tom" at index 0
 x.insert(3, 3.141) # This would insert 3.141 at index 3
 
+# We can also remove
+x.remove(3)
+print(x)
+
+# What about this?
+# x.remove("Jeff") # What would happen? You would get this error message [shown below]
+# "ValueError: list.remove(x): x not in list"
 
 
+# Not sure how this next method works but supposedly it does.
+# Let's remove the las element of the list
+# Index "IndexError: pop index out of range"-->popped_item = x.pop(5) # <-- I'm not sure if that actually is
+#print(x)                        # the element or the idex. I'm thinking
+#print(popped_item)                        # it probably is the element
 
 
+# You can also delete stuff using  del()
 
 
 
