@@ -100,6 +100,65 @@ print(x)
 
 
 # You can also delete stuff using  del()
+print(x)
+#del(x) # <-- I'm not so sure why this is red. Gonna test.
+# ^ The line above gives me the error code "NameError: name 'x' is not defined"
+print(x)
+#^ Even though when I print it, it displays the whole arr- list. It displays the list.
+
+# It's actually pretty easy to sort a list. You just use the .sort() method and
+z = [1,34,52,2,6,8,234,7,4,2,4,6,3,4]
+print(z)
+z.sort()
+print(z)
+#^ Just tested on the shell and it sorted it nicely
+# You can also do it so it does the reverse.
+z.reverse()
+print(z)
+# To add something to a list, just use the method, .append()
+# to add something to the end of the list.
+z.append("Hi there!")
+print(z)
+count = z.count(1) # <-- to count the number 1 in the list z
+print(count) # <-- simply displays the line above
+# Interestingly enough. You can add arrays into a single list
+1_1 = [1, 2, 3, 4, 5]
+1_2 = [6, 7, 8, 9, 10]
+print(1_1 + 1_2) # <-- Will print both of them out.
+
+# Let's take a look at Tuples
+# not gonna lie, a bit confusing at first since I've never used them
+
+
+
+# Tuples are like lists
+# The only difference is:
+# Tuples CANNOT be changed.
+my_tuple = (1, 3)
+my_tuple2 = (2, 4, 6)
+my_tuple3 = (1, True, "Jeff", 3.1415)
+# These are examples of tuples
+print(my_tuple, my_tuple2, my_tuple3)
+print(my_tuple[0])
+print(my_tuple2[1])
+print(my_tuple3[2])
+
+
+# As you might have noticed. A way to differentiate from tuples and lists
+# are it's syntax. 
+# Lists use --> LIST_NAME = [] 
+# Tuples use --> TUPLE_NAME = ()
+
+# Would give an error --> my_tuple[0] = 100
+my_tuple3.count("Jeff")
+len(my_tuple)
+del(my_tuple)
+x = (1, 2, 3, 4)
+y = (5, 6, 7, 8, 8, 10)
+z = x + y
+print(z)
+# These are things you could do with a tuple
+
 
 
 
